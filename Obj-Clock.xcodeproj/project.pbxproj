@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 63;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -105,7 +105,6 @@
 				};
 			};
 			buildConfigurationList = 65A643C72CA0026F00D4AAB8 /* Build configuration list for PBXProject "Obj-Clock" */;
-			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -114,6 +113,7 @@
 			);
 			mainGroup = 65A643C32CA0026F00D4AAB8;
 			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
 			productRefGroup = 65A643CD2CA0026F00D4AAB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
