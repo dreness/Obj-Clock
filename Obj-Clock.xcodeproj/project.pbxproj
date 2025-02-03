@@ -81,7 +81,7 @@
 				};
 			};
 			buildConfigurationList = 65A643C72CA0026F00D4AAB8 /* Build configuration list for PBXProject "Obj-Clock" */;
-			compatibilityVersion = "Xcode 15.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
