@@ -707,23 +707,20 @@
         <scene sceneID="hIz-AP-VOD">
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" id="m2S-Jp-Qdl" userLabel="NSView">
-                        <rect key="frame" x="0.0" y="0.0" width="294" height="115"/>
-                        <autoresizingMask key="autoresizingMask"/>
+                    <view key="view" autoresizesSubviews="NO" id="m2S-Jp-Qdl" userLabel="NSView">
+                        <rect key="frame" x="0.0" y="0.0" width="277" height="72"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="d3j-SH-Wxm">
-                                <rect key="frame" x="0.0" y="20" width="294" height="49"/>
-                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" allowsUndo="NO" borderStyle="border" alignment="center" placeholderString="00:11:22.123" id="x60-DS-sh5">
+                            <textField autoresizesSubviews="NO" focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" preferredMaxLayoutWidth="277" translatesAutoresizingMaskIntoConstraints="NO" id="d3j-SH-Wxm">
+                                <rect key="frame" x="3" y="0.0" width="281" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" controlSize="large" lineBreakMode="clipping" allowsUndo="NO" alignment="center" placeholderString="00:11:22.123" id="x60-DS-sh5">
                                     <font key="font" size="38" name="SFMono-Regular"/>
                                     <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" red="0.11764705882352941" green="0.11764705882352941" blue="0.11764705882352941" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
-                        <constraints>
-                            <constraint firstItem="d3j-SH-Wxm" firstAttribute="centerX" secondItem="m2S-Jp-Qdl" secondAttribute="centerX" id="WKW-7q-yxL"/>
-                            <constraint firstAttribute="bottom" secondItem="d3j-SH-Wxm" secondAttribute="bottom" constant="20" id="fVF-tS-w1Z"/>
-                        </constraints>
                     </view>
                     <connections>
                         <outlet property="skView" destination="m2S-Jp-Qdl" id="qux-te-cT3"/>

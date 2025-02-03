@@ -17,7 +17,7 @@
 NSDateFormatter *formatter;
 
 // update interval in milliseconds
-static const uint64_t interval = 64;
+static const uint64_t interval = 32;
 
 @implementation ViewController
 
